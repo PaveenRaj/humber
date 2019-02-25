@@ -1,0 +1,113 @@
+<html >
+<head>
+<title>Learn Here</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position:static;  
+}
+ 
+</style>
+</head>
+<body>
+<header>
+  <h2><i>Never Stop Learning !!</i></h2>
+</header>
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a href="news.html">News</a>
+  <a href="about.html">About</a>
+</div>
+
+
+<section>
+  <nav>
+    <ul>
+	<li><h3>Technologies</h3></li> 
+      <li><a href="html.html">HTML</a></li>
+      <li><a href="css.html">CSS</a></li>
+      <li><a href="angularjs.html">Angular Js</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>AngularJs</h1>
+    <p style="text-align:justify;">AngularJS is a JavaScript-based open-source front-end web framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. (This flexibility has led to the acronym MVW, which stands for "model-view-whatever" and may also encompass model–view–presenter and model–view–adapter.) In 2014, the original AngularJS team began working on the Angular web framework.
+
+The AngularJS framework works by first reading the Hypertext Markup Language (HTML) page, which has additional custom HTML attributes embedded into it. Angular interprets those attributes as directives to bind input or output parts of the page to a model that is represented by standard JavaScript variables. The values of those JavaScript variables can be manually set within the code, or retrieved from static or dynamic JSON resources.</p>
+
+  </article>
+</section>
+</body>
+</html>
